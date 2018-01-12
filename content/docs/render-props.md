@@ -329,11 +329,11 @@ function helloWorld() {
 }
 ```
 
-**After: Using Getters**
+**After: Prototype Method**
 
 ```js
 class ABC extends React.Component {
-  get helloWorld() {
+  helloWorld() {
     return <h1>Hello World</h1>
   }
 
